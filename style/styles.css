@@ -1,1 +1,96 @@
+*{    
+font-family: 'Poppins', sans-serif;
+}
 
+.top{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+    
+}
+.nav-title{
+    font-weight: 700;
+    font-size: 40px;
+}
+/* nav { */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: baseline; */
+    /* margin: 0px 200px; */
+/* } */
+.top-nav{
+    display:flex;
+    margin-left: 100px;
+}
+.nav-img{
+    height: 40px;
+    width: 80px;
+    margin-top: 50px;
+    margin-right: 10px;
+}
+.nav-g{
+    color : rgb(241, 44, 110);
+}
+.right-nav>ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: baseline;
+}
+.right-nav li{
+    margin-left: 50px;
+}
+.nav-follow{
+    background-color: rgb(213, 213, 212);
+    padding: 10px;
+}
+.right-nav i{
+    margin-left: 10px;
+}
+.right-nav{
+    justify-content: space-between;        
+}
+.goat-detail{
+    background-image: url('../style/images/Group 14.png');
+    background-repeat: no-repeat;
+    width: 900px;
+    height: 680px;
+}
+.play-goat{
+    display: flex;
+    justify-content: space-between;
+}
+ .goat-grad
+{
+    background-image: linear-gradient(to right,#F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 70px;
+    font-weight: 700;
+}
+.sign-in{
+    font-size: 15px;
+    font-weight: 550;
+    color: white;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: #FF42A5  ;
+    border: 0;
+ 
+}
+.go-rogue{
+    font-size: 15px;
+    font-weight: 550;
+    color: white;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: #4EC5F7   ;
+    border: 0;
+}
+.go-rogue{
+    margin-left: 15px;
+}
+.play-goat{
+    
+}
