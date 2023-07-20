@@ -404,7 +404,7 @@
     justify-content: center;
 }
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:576px){
     .top {
         flex-direction: column;
     }
@@ -542,13 +542,5 @@
         margin-left: 140px;
         margin-bottom: 30px;
     }
-    body{
-        overflow-x:;
-    }
-
-
-
-
-
 
 }
